@@ -1,0 +1,13 @@
+{
+    "name": "Generador_de_tarjetas_de_perfil_dinamicas",
+    "version": "1.0.0",
+    "main": "path/to/main.css",
+    "ignore": [
+        ".jshintrc",
+        "**/*.txt"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}

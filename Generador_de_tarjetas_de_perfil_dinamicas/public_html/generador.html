@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Gestor de Tarjetas de Perfil</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo2.css"/>
+        <link rel="shortcut icon" type="image/x-icon" href="recursos/Logo.png"/>
+    </head>
+    <body>
+        <form id="formT">
+            <h2>Ingrese la información</h2>
+            <label for="name">Nombre y Apellidos</label><br/>
+            <input type="text" placeholder="Nombre" id="name" required=""><br/>
+            <label for="pro">Profesión</label><br/>
+            <input type="text" placeholder="Profesión" id="pro" required=""><br/>
+            <label for="des">Descripción</label><br/>
+            <textarea id="des" placeholder="Descripción" required=""></textarea><br/>
+            <label class="c" for="color">Color Favorito</label>
+            <input class="c" type="color" id="color"><br/>
+            <input type="submit" id="boton" value="Generar Tarjeta">
+            <input type="button" id="btn" style="display: none" class="btn-sec" value="Cancelar edición"/>
+        </form>
+        <div>
+            <a href="index.html" class="volver">Volver al inicio</a>
+            <a href="tarjetero.html" class="volver">Ir al tarjetero</a>
+        </div>
+        <script src="js/datos.js"></script>
+    </body>
+</html>
