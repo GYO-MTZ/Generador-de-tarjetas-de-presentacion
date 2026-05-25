@@ -1,8 +1,0 @@
-{
-    "name": "Generador_de_tarjetas_de_perfil_dinamicas",
-    "version": "1.0.0",
-    "keywords": ["util", "functional", "server", "client", "browser"],
-    "author": "Lenovo",
-    "contributors": [],
-    "dependencies": {}
-}
